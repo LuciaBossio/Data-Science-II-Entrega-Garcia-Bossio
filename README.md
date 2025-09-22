@@ -6,7 +6,8 @@ Hipotesis a plantear para este proyecto:
 3) El producto más vendido fue Tecnologia
 4) Entre más premium el cliente, más compra
 
-#Resultados
+Resultados
+
 Segun los datos obtenidos concluimos que:
 1) Las ventas alcanzaron su pico máximo en feb, mar y jun
 2) La mayor categoria vendida fue Office Supplies con un 63,4%
