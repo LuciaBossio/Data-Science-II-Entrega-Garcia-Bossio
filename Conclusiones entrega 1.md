@@ -6,6 +6,12 @@ Hipotesis a plantear para este proyecto:
 3) El producto más vendido fue Tecnologia
 4) Entre más premium el cliente, más compra
 
+<img width="1588" height="890" alt="image" src="https://github.com/user-attachments/assets/8be17ea4-af49-4463-b449-300dca50d3f2" />
+<img width="425" height="413" alt="image" src="https://github.com/user-attachments/assets/7e16cf16-25e9-4dfc-9335-2d1cacc7b260" />
+<img width="1589" height="890" alt="image" src="https://github.com/user-attachments/assets/0ab9c14a-9439-4f70-99ca-f748026d1644" />
+
+
+
 Resultados
 
 Segun los datos obtenidos concluimos que:
