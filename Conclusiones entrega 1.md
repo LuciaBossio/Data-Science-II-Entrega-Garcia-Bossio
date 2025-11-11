@@ -89,8 +89,10 @@ Eñ modelo de Árbol de Decisión, aunque muestra un MAE más bajo (64,3), su RM
 En Conclusión: La Regresión Lineal es el modelo más adecuado para este conjunto de datos, al ofrecer mayor capacidad explicativa, estabilidad y coherencia en las predicciones. El Árbol de Decisión podría explorarse más adelante si se incorporan variables no lineales o interacciones complejas
 
 Tras aplicar la técnica de búsqueda aleatoria de hiperparámetros (RandomizedSearchCV) al modelo de Árbol de Decisión, se logró una mejora significativa en su desempeño. El modelo ajustado alcanzó un R² de 0,87, frente al 0,81 inicial, lo que indica una mayor capacidad para explicar las variaciones en las ventas totales. Esta optimización permitió encontrar la estructura del árbol más equilibrada —con una profundidad moderada y reglas más generales— reduciendo errores y evitando que el modelo se sobreadapte a casos puntuales.
+<img width="318" height="193" alt="image" src="https://github.com/user-attachments/assets/3a30c8d9-86e4-46e9-9d8a-bb90bbdb2092" />
 
 En términos prácticos, esto significa que el modelo optimizado predice las ventas con mayor estabilidad y precisión, brindando una herramienta confiable para la toma de decisiones comerciales. Gracias al ajuste fino de sus parámetros, el modelo aprende mejor los patrones reales de compra y venta, lo que puede ayudar a proyectar ingresos, anticipar demandas y planificar estrategias de precios o promociones con mayor respaldo analítico.
 
+Tras la comparación de métricas (R², RMSE y MAE), se determinó que el modelo con mejordesempeño general es la Regresión Lineal. Este modelo explica de forma más estable y consistente el comportamiento global de las ventas, presentando una mayor capacidad de generalización frente a nuevos datos. Si bien el Árbol de Decisión optimizado logró mejorar su precisión local en algunos casos, la Regresión Lineal ofrece un equilibrio superior entre precisión, interpretabilidad y estabilidad. Por tanto, se recomienda su implementación como modelo base para estimaciones de ventas, planificación comercial y soporte a la toma de decisiones estratégicas.
 
 
