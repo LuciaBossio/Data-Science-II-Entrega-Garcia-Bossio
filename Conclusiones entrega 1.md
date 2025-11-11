@@ -72,6 +72,13 @@ El análisis de regresión multivariada revela cómo distintas variables influye
   - La categoría Technology tiene un impacto positivo, con un coeficiente de aproximadamente 255.07, indicando que esta categoría genera ventas significativamente mayores en comparación con la categoría de referencia.
 En conclusión,estos resultados sugieren que la cantidad de productos vendidos y la categoría de producto son factores clave que afectan las ventas totales. Potenciar la venta en categorías como Tecnología y gestionar estratégicamente las categorías con menor impacto, como Office Supplies, puede ser una estrategia efectiva para incrementar los ingresos.
 
+Para profundizar el análisis de ventas totales de la empresa, utilicé dos modelos de ML aplicados a la predicción de la variable total_venta. Se utilizaron los modelos Regresión Lineal y Árbol de Decisión, evaluados mediante validación cruzada de 3 folds.
+Estos fueron los resultados: 
+<img width="473" height="237" alt="image" src="https://github.com/user-attachments/assets/d352a1c6-d9f7-4c85-95ce-2e34f4ccd584" />
+El modelo de regresión lineal obtuvo un R² de 0,93, lo que indica que explica el 93% de la variabilidad de las ventas. Los errores medios (RMSE=214,5; MAE=116,5)
+son consistentes y de baja dispersión, lo que sugiere que el modelo es estable y generaliza bien.
+Eñ modelo de Árbol de Decisión, aunque muestra un MAE más bajo (64,3), su RMSE más alto (344,2) y la mayor variabilidad entre folds reflejan menor estabilidad. El R²=0,81 sugiere un desempeño correcto, pero inferior al modelo lineal. 
+En Conclusión: La Regresión Lineal es el modelo más adecuado para este conjunto de datos, al ofrecer mayor capacidad explicativa, estabilidad y coherencia en las predicciones. El Árbol de Decisión podría explorarse más adelante si se incorporan variables no lineales o interacciones complejas
 
 
 
