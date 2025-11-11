@@ -82,5 +82,9 @@ son consistentes y de baja dispersión, lo que sugiere que el modelo es estable 
 Eñ modelo de Árbol de Decisión, aunque muestra un MAE más bajo (64,3), su RMSE más alto (344,2) y la mayor variabilidad entre folds reflejan menor estabilidad. El R²=0,81 sugiere un desempeño correcto, pero inferior al modelo lineal. 
 En Conclusión: La Regresión Lineal es el modelo más adecuado para este conjunto de datos, al ofrecer mayor capacidad explicativa, estabilidad y coherencia en las predicciones. El Árbol de Decisión podría explorarse más adelante si se incorporan variables no lineales o interacciones complejas
 
+Tras aplicar la técnica de búsqueda aleatoria de hiperparámetros (RandomizedSearchCV) al modelo de Árbol de Decisión, se logró una mejora significativa en su desempeño. El modelo ajustado alcanzó un R² de 0,87, frente al 0,81 inicial, lo que indica una mayor capacidad para explicar las variaciones en las ventas totales. Esta optimización permitió encontrar la estructura del árbol más equilibrada —con una profundidad moderada y reglas más generales— reduciendo errores y evitando que el modelo se sobreadapte a casos puntuales.
+
+En términos prácticos, esto significa que el modelo optimizado predice las ventas con mayor estabilidad y precisión, brindando una herramienta confiable para la toma de decisiones comerciales. Gracias al ajuste fino de sus parámetros, el modelo aprende mejor los patrones reales de compra y venta, lo que puede ayudar a proyectar ingresos, anticipar demandas y planificar estrategias de precios o promociones con mayor respaldo analítico.
+
 
 
